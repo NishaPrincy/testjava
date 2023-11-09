@@ -170,4 +170,4 @@ resource "aws_instance" "gautam-server" {
     Location = "delhi"
   }
 }
-has context menu
+
