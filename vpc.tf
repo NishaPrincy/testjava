@@ -154,7 +154,7 @@ resource "aws_instance" "sanjay-server" {
  
 ##create an EIP for EC2
 resource "aws_eip" "sanjay-ec2-eip" {
-  instance = "aws_instance.sanjay-server.id"
+  instance = aws_instance.sanjay-server.id
 }
  
 ###this is database ec2 code
